@@ -45,6 +45,10 @@
     padding: 0;
   }
 
+  article h2 {
+    color: #000;
+  }
+
   .entry-container .date, .entry-container .institution{
     display: block;
     margin-bottom: unset !important;
@@ -57,4 +61,6 @@
   .entry-container .entry-description {
     font-size: .7em;
   }
+
+  
 }

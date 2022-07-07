@@ -44,6 +44,10 @@
     padding: 0;
   }
 
+  article h2 {
+    color: #000;
+  }
+
   article p {
     margin-left: 1.5em;
     font-size: 0.875em;
@@ -51,8 +55,31 @@
     text-align: justify;
   }
 
+  .entry-container .date.college, .entry-container .institution.college{
+    display: block;
+    margin-bottom: unset !important;
+  } 
+
   .entry-container .entry-description {
-    background-color: transparent;
-    padding: 0;
+    background-color: #fcfcfc;
+    color: #697385;
+  }
+
+  .entry-container .institution::before{
+    content: "";
+  }
+
+  .entry-container .entry-description {
+    font-size: .7em;
+  }
+
+  .skills-container div {
+    gap: 10px;
+  }
+
+  .skills-container div label {
+    padding: 5px 10px;
+    background-color: rgb(228, 228, 228);
+    color: #222;
   }
 }
