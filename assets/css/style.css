@@ -15,7 +15,7 @@ a {
 .container {
   margin: 0 auto;
   display: block;
-  background-color: #f5f5f5;
+  background-color: #EDF2F4;
   max-width: 1200px;
   min-height: 100vh;
   box-sizing: border-box;
@@ -24,9 +24,9 @@ a {
 
 header {
   font-family: "Ubuntu";
-  background-color: #222222;
+  background-color: #2B2D42;
   color: #fcfcfc;
-  padding: 5em 0;
+  padding: 7em 0;
   margin-bottom: .5em;
 }
 
@@ -74,6 +74,7 @@ article {
 article h2 {
   font-family: "Ubuntu";
   margin-bottom: 0.5em;
+  color: #D90429;
 }
 
 article p {
@@ -110,8 +111,8 @@ label {
   padding: 0;
   font-family: "Open Sans";
   font-size: 0.7em;
-  background-color: #e7e7e7;
-  color: #636363;
+  background-color: #e6ecee;
+  color: #798394;
   padding: 5px;
   border-radius: 10px;
   text-transform: lowercase;
@@ -131,8 +132,8 @@ label {
 }
 
 .entry-container .entry-description {
-  background-color: #eeeeee;
-  color: #636363;
+  background-color: #e6ecee;
+  color: #697385;
   display: block;
   font-size: 0.8em;
   padding: 3px 10px;
@@ -149,4 +150,6 @@ label {
 .skills-container div label {
   padding: 10px 20px;
   font-size: 1em;
+  background-color: #EF233C;
+  color: #fff;
 }

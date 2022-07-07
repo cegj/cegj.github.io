@@ -10,4 +10,49 @@
     max-height: 100%;
     background-color: transparent;
   }
+
+  header {
+    background-color: rgb(245, 245, 245);
+    color: #222;
+    padding: 3em 0;
+    margin-bottom: .5em;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 0.3em;
+  }
+  
+  header p {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  address {
+    margin-bottom: 0;
+  }
+
+  address ul {
+    font-size: 1em;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  article {
+    padding: 0;
+  }
+
+  article p {
+    margin-left: 1.5em;
+    font-size: 0.875em;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .entry-container .entry-description {
+    background-color: transparent;
+    padding: 0;
+  }
 }
