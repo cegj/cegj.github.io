@@ -20,9 +20,12 @@ a {
   min-height: 100vh;
   box-sizing: border-box;
   padding-bottom: 1em;
+  position: relative;
 }
 
 header {
+  /* position: sticky;
+  top: -6.8em; */
   font-family: "Ubuntu";
   background-color: #2B2D42;
   color: #fcfcfc;
@@ -152,4 +155,92 @@ label {
   font-size: 1em;
   background-color: #EF233C;
   color: #fff;
+}
+
+.multiple-entries>p {
+  margin-bottom: 1em;
+  font-size: .875em;
+}
+
+.grid-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.print-btn-container {
+  transform: translateX(1220px);
+  position: fixed;
+  bottom: 10px;
+}
+
+.print-btn-container button {
+  padding: 8px 15px;
+  font-size: 0.8em;
+  background-color: #8d99ae;
+  color: #edf2f4;
+  font-family: "Open Sans";
+  border: none;
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+}
+
+.side-box {
+  transform: translateX(-270px);
+  opacity: 0;
+  position: fixed;
+  min-height: 200px;
+  width: 230px;
+  transition-property: opacity;
+  transition-duration: .2s;
+}
+
+.sb-name {
+  font-family: "Ubuntu";
+  background-color: #2B2D42;
+  padding: 1em;
+}
+
+.sb-name h1 {
+  color: #edf2f4;
+  padding-bottom: .5em;
+}
+
+.sb-name p {
+  line-height: 1.5;
+  color: #8d99ae;
+}
+
+.sb-address {
+  padding: 1em;
+  background-color: #EDF2F4;
+}
+
+.sb-address address {
+  padding: 0;
+  margin: 0;
+}
+
+.sb-address address ul {
+  font-family: "Open Sans";
+  font-size: 1em;
+  color: #585858;
+  display: block;
+}
+
+.sb-address address li {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.sb-address address li:last-child {
+  margin-bottom: 0;
+}
+
+.sb-address a {
+  text-decoration: none;
+  color: #585858;
+}
+
+.side-box[data-show="true"] {
+  opacity: 1;
 }
