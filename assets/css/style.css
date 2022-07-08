@@ -184,6 +184,10 @@ label {
   box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
 }
 
+.print-btn-container button:hover{
+  background-color: #2B2D42;
+}
+
 .side-box {
   transform: translateX(-270px);
   opacity: 0;
