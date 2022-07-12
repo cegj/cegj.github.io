@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.side-box {
+  z-index: 1;
+  opacity: 1;
+  position: fixed;
+  min-height: 200px;
+  width: 230px;
+  transition-property: opacity;
+  transition-duration: .2s;
+  margin-left: 60px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+.sb-name {
+  font-family: "Ubuntu", sans-serif;;
+  background-color: #2B2D42;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sb-name h1 {
+  color: #edf2f4;
+  padding-bottom: .5em;
+}
+
+.sb-name p {
+  line-height: 1.5;
+  color: #8d99ae;
+}
+
+.sb-address {
+  padding: 1em;
+  background-color: #EDF2F4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sb-address address {
+  padding: 0;
+  margin: 0;
+}
+
+.sb-address address ul {
+  font-family: "Open Sans", sans-serif;;
+  font-size: 1em;
+  color: #585858;
+  display: block;
+}
+
+.sb-address address li {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.sb-address address li:last-child {
+  margin-bottom: 0;
+}
+
+.sb-address a {
+  text-decoration: none;
+  color: #585858;
+}
+
+.side-box[data-show="true"] {
+  opacity: 1;
+}
+
+.container {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container:nth-child(odd) {
+  background-color: #edf2f4;
+}
+
+
+.container:nth-child(even) {
+  background-color: #e4ecf0;
+}
+
+.portfolio-content {
+  max-width: 60%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.portfolio-img {
+  /* width: 700px; */
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,.25);
+  object-fit: cover;
+  object-position: top;
+}
+
+.portfolio-info h1 {
+  font-family: "Ubuntu", sans-serif;;
+  font-weight: normal;
+  font-size: 4em;
+  padding-bottom: 0.3em;
+  color: #D90429;
+}
+
+.portfolio-info p {
+  font-family: "Open Sans", sans-serif;;
+  font-weight: normal;
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  color: #5B5B5B;
+}
+
+.portfolio-labels {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  gap: 15px;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+}
+
+.portfolio-labels label {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #EF233C;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.portfolio-btns {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.9em;
+  display: flex;
+  gap: 15px;
+}
