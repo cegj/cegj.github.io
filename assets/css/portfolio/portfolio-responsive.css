@@ -26,7 +26,11 @@
 
   .container {
     padding-left: 0;
-    top: 134px;
+    top: 100px;
+  }
+
+  .container:last-of-type{
+    height: calc(100vh - 180px);
   }
 
 }
@@ -35,6 +39,12 @@
 
   .container {
     position: static;
+  }
+
+  .container:last-of-type{
+    height: 70vh;
+    padding-top: 134px;
+    padding-bottom: 30px;
   }
 
   .portfolio-content {
@@ -108,6 +118,11 @@
     height: 100%;
     padding: 4em 0;
     position: static;
+  }
+
+  .container:last-of-type{
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .portfolio-img {
