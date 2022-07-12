@@ -1,18 +1,25 @@
-@media screen and (max-width: 1750px){
+@media screen and (max-width: 1550px){
   .side-box {
     transform: translateX(-240px);  
 }
+}
 
-@media screen and (max-width: 1680px){
+@media screen and (max-width: 1480px){
   .side-box {
     transform: translateX(-200px);
   box-shadow: 4px 2px 10px rgba(0,0,0,0.15);
   }
 }
 
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1400px){
   .side-box {
     display: none !important;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  .print-btn-container{
+    transform: translateX(880px);
   }
 }
 
@@ -51,6 +58,10 @@
     padding: 5px 10px;
   }
 
+  .print-btn-container{
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 560px){
@@ -76,5 +87,8 @@
     font-size: .7em;
   }
 
-  
+  .grid-3{
+    grid-template-columns: 100%;
+  }
+
 }

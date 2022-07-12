@@ -1,0 +1,180 @@
+@media screen and (max-width: 1700px){
+  .side-box {
+    transform: translateX(-130px);
+  }
+
+  .container {
+    padding-left: 300px;
+  }
+}
+
+@media screen and (max-width: 1300px){
+  .side-box{
+    display: none;
+  }
+
+  .alt-header,
+  .alt-address{
+    display: block;
+  }
+
+  .alt-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .container {
+    padding-left: 0;
+    top: 134px;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+
+  .container {
+    position: static;
+  }
+
+  .portfolio-content {
+    flex-direction: column;
+    padding: 0;
+    justify-items: center;
+    gap: 15px;
+  }
+
+  .portfolio-img {
+    max-width: 600px;
+    max-height: 300px;
+  }
+
+  .portfolio-info h1,
+  .portfolio-info p {
+    text-align: center;
+  }
+
+  .portfolio-info h1 {
+    font-size: 4em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  .portfolio-info p {
+    font-size: .9em;
+    line-height: 1.5;
+    padding: 1em;
+    margin-bottom: 0;
+  }
+
+  
+  .portfolio-labels {
+    display: flex;
+    gap: 15px;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5em;
+    justify-content: center;
+  }
+
+  .portfolio-labels label {
+    padding: 7px 15px;
+    font-size: 0.8em;
+    background-color: #EF233C;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .portfolio-btns {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.9em;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .portfolio-btns a {
+    text-decoration: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+  
+}
+
+@media screen and (max-width: 520px){
+
+  .container {
+    height: 100%;
+    padding: 4em 0;
+    position: static;
+  }
+
+  .portfolio-img {
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+  .portfolio-info h1 {
+    font-size: 2em;
+  }
+  
+  .portfolio-info p {
+    font-size: .8em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    padding: 1em;
+  }
+
+
+  .portfolio-labels label {
+    padding: 4px 10px;
+    font-size: 0.7em;
+  }
+
+  .portfolio-btns {
+    font-size: 0.8em;
+  }
+
+  .portfolio-btns a {
+    text-decoration: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+
+  .alt-header h1 {
+    font-size: 2em;
+    padding: 0 1em;
+    margin-bottom: 0.3em;
+  }
+  
+  .alt-header p {
+    font-size: 1em;
+    padding: 0 1em;
+  }
+  
+  .alt-address {
+    margin-bottom: .5em;
+    padding: 1.5em;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .alt-address ul {
+    font-family: "Open Sans", sans-serif;;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 30px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .alt-address a {
+    text-decoration: none;
+    color: #3b3b3b;
+  }
+  
+
+}
