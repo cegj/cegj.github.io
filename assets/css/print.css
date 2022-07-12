@@ -128,4 +128,15 @@
     display: none !important;
   }
 
+  .qrcode-container{
+    display: grid;
+  }
+
+  .portfolio-btn{
+    display: none;
+  }
+
+  .portfolio-btn-alt{
+    display: block;
+  }
 }
