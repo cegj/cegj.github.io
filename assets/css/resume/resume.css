@@ -236,22 +236,30 @@ label {
 .qrcode-container {
   font-family: "Open Sans", sans-serif;
   font-size: 0.7em;
-  max-width: 200px;
   display: none;
-  gap: 10px;
-  grid-template-columns: auto auto;
+  gap: 30px;
   align-items: center;
-  margin: 0 15px 0 auto;
+  justify-content: end;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
 }
 
-.qrcode-container p {
+.qrcode-container div {
+  display: grid;
+  grid-template-columns: 80px 60px;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+.qrcode-container div p {
   text-align: right;
 }
 
-.qrcode-container img {
+.qrcode-container div img {
   padding: 3px;
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .portfolio-btn-alt{
