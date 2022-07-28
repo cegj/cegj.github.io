@@ -89,7 +89,7 @@ article p {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;;
-  font-size: 1em;
+  font-size: .9em;
   margin-bottom: 0.3em;
   display: inline-block;
   font-weight: normal;
@@ -107,6 +107,7 @@ label {
   text-transform: lowercase;
 }
 
+.entry-container .hours,
 .entry-container .date,
 .entry-container .institution {
   font-size: 0.8em;
@@ -116,16 +117,12 @@ label {
   margin-bottom: 0.3em !important;
 }
 
-.entry-container .institution::before {
-  content: " | "
-}
-
 .entry-container .entry-description {
   background-color: #e6ecee;
   color: #697385;
   display: block;
-  font-size: 0.8em;
-  padding: 3px 10px;
+  font-size: 0.75em;
+  padding: 3px;
   max-width: fit-content;
 }
 
@@ -137,8 +134,8 @@ label {
 }
 
 .skills-container div label {
-  padding: 10px 20px;
-  font-size: 1em;
+  padding: 5px 15px;
+  font-size: .9em;
   background-color: #EF233C;
   color: #fff;
 }
