@@ -19,11 +19,16 @@
   }
 
   header h1 {
-    font-size: 36pt;
+    font-size: 32pt;
     text-align: center;
     padding-bottom: 0.3em;
   }
-  
+
+  header .photo {
+    max-height: 95px;
+    filter: grayscale(100%);
+  }
+
   header p {
     font-size: 14pt;
     text-align: center;
@@ -71,14 +76,16 @@
     font-weight: normal;
   }
 
-  .date, .hours {
+  .date,
+  .hours {
     font-weight: 300;
   }
 
-  .entry-container .date.college, .entry-container .institution.college{
+  .entry-container .date.college,
+  .entry-container .institution.college {
     display: block;
     margin-bottom: unset !important;
-  } 
+  }
 
   .entry-container .entry-description {
     background-color: #fcfcfc;
@@ -101,7 +108,7 @@
     font-size: 8pt;
   }
 
-  .grid-3 > .entry-container {
+  .grid-3>.entry-container {
     margin-bottom: 0;
   }
 
@@ -114,7 +121,8 @@
     font-size: 9pt;
   }
 
-  .entry-container .date, .entry-container .institution {
+  .entry-container .date,
+  .entry-container .institution {
     padding: 0;
   }
 
@@ -123,7 +131,7 @@
     font-size: 10pt;
   }
 
-  .entry-container.one-line .entry-title>h3{
+  .entry-container.one-line .entry-title>h3 {
     font-size: 10pt;
   }
 
@@ -135,18 +143,19 @@
     display: none;
   }
 
-  .side-box{
+  .side-box {
     display: none !important;
   }
 
-  .qrcode-container{
+  .qrcode-container {
     display: flex;
   }
-  .portfolio-btn{
+
+  .portfolio-btn {
     display: none;
   }
 
-  .portfolio-btn-alt{
+  .portfolio-btn-alt {
     display: block;
   }
 }

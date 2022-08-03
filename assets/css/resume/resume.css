@@ -10,27 +10,34 @@
 }
 
 header {
-  /* position: sticky;
-  top: -6.8em; */
-  font-family: "Ubuntu", sans-serif;;
+  font-family: "Ubuntu", sans-serif;
+  ;
   background-color: #2B2D42;
   color: #fcfcfc;
   padding: 7em 0;
   margin-bottom: .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+header .photo {
+  display: inline-block;
 }
 
 header h1 {
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
   padding-bottom: 0.3em;
 }
 
 header p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
 }
 
-main {
+. main {
   padding: 0px 30px;
 }
 
@@ -40,7 +47,8 @@ address {
 }
 
 address ul {
-  font-family: "Open Sans", sans-serif;;
+  font-family: "Open Sans", sans-serif;
+  ;
   font-size: 1.1em;
   display: flex;
   gap: 15px 30px;
@@ -61,13 +69,15 @@ article {
 }
 
 article h2 {
-  font-family: "Ubuntu", sans-serif;;
+  font-family: "Ubuntu", sans-serif;
+  ;
   margin-bottom: 0.5em;
   color: #D90429;
 }
 
 article p {
-  font-family: "Open Sans", sans-serif;;
+  font-family: "Open Sans", sans-serif;
+  ;
   margin-left: 1.5em;
   font-size: 1em;
   line-height: 1.5;
@@ -88,7 +98,8 @@ article p {
 .entry-container .entry-title h3 {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;;
+  font-family: "Open Sans", sans-serif;
+  ;
   font-size: .9em;
   margin-bottom: 0.3em;
   display: inline-block;
@@ -98,7 +109,8 @@ article p {
 label {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;;
+  font-family: "Open Sans", sans-serif;
+  ;
   font-size: 0.7em;
   background-color: #e6ecee;
   color: #798394;
@@ -145,7 +157,7 @@ label {
   font-size: .875em;
 }
 
-.grid-3{
+.grid-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -161,13 +173,14 @@ label {
   font-size: 0.8em;
   background-color: #8d99ae;
   color: #edf2f4;
-  font-family: "Open Sans", sans-serif;;
+  font-family: "Open Sans", sans-serif;
+  ;
   border: none;
   border-radius: 4px;
-  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.print-btn-container button:hover{
+.print-btn-container button:hover {
   background-color: #2B2D42;
 }
 
@@ -179,11 +192,12 @@ label {
   width: 230px;
   transition-property: opacity;
   transition-duration: .2s;
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 .sb-name {
-  font-family: "Ubuntu", sans-serif;;
+  font-family: "Ubuntu", sans-serif;
+  ;
   background-color: #2B2D42;
   padding: 1em;
 }
@@ -198,6 +212,18 @@ label {
   color: #8d99ae;
 }
 
+.sb-pic {
+  display: flex;
+  justify-content: center;
+  background-color: #2B2D42;
+  padding-top: 1em;
+}
+
+.photo {
+  max-height: 130px;
+  border-radius: 50%;
+}
+
 .sb-address {
   padding: 1em;
   background-color: #EDF2F4;
@@ -209,7 +235,8 @@ label {
 }
 
 .sb-address address ul {
-  font-family: "Open Sans", sans-serif;;
+  font-family: "Open Sans", sans-serif;
+  ;
   font-size: 1em;
   color: #585858;
   display: block;
@@ -262,10 +289,10 @@ label {
   max-height: 60px;
 }
 
-.portfolio-btn-alt{
+.portfolio-btn-alt {
   display: none;
 }
 
-.portfolio-btn{
+.portfolio-btn {
   display: block;
 }
