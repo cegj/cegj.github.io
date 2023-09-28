@@ -1,69 +1,25 @@
-class Resume{
+class ResumeData{
   constructor(){
   }
 
   async getData(){
-    const generalDataResponse = await fetch('/data/general.json')
-    this.generalData = await generalDataResponse.json()
-    const resumeDataResponse = await fetch('/data/resume.json')
-    this.resumeData = await resumeDataResponse.json()
+    const response = await fetch('/data/resume.json')
+    this.data = await response.json()
     return
   }
-
-  setName(){
-    const elements = document.querySelectorAll('[data-ref="name"]')
-    elements.forEach((element) => {
-      element.innerText = this.generalData.name
-    })
-  }
-
-  setDescription(){
-    const elements = document.querySelectorAll('[data-ref="description"]')
-    elements.forEach((element) => {
-      element.innerText = this.generalData.description
-    })
-  }
-
-  setAvatar(){
-    const elements = document.querySelectorAll('[data-ref="avatar"]')
-    elements.forEach((element) => {
-      element.src = this.generalData.avatar_url
-      element.alt = this.generalData.name
-    })
-  }
-
-  setContactList(){
-    const elements = document.querySelectorAll('[data-ref="contact-list"]')
-    elements.forEach((element) => {
-      const ul = element.querySelector("ul")
-      this.generalData.contact.forEach((contact) => {
-        const li = document.createElement('li')
-        const a = document.createElement('a')
-        if (contact.url) a.setAttribute('href', contact.url)
-        const i = document.createElement('i')
-        i.setAttribute('class', contact.icon_class)
-        const span = document.createElement('span')
-        span.innerText = contact.title
-        a.appendChild(i)
-        a.appendChild(span)
-        li.appendChild(a)
-        ul.appendChild(li)
-      })
-      })
-  } 
 
   setPresentation(){
     const elements = document.querySelectorAll('[data-ref="presentation"]')
     elements.forEach((element) => {
       const p = element.querySelector("p")
-      p.innerText = this.resumeData.presentation
+      p.innerText = this.data.presentation
     })
   }
 
   setFormalEducation(){
     const elements = document.querySelectorAll('[data-ref="education-formal"]')
     elements.forEach((element) => {
-      this.resumeData.education.formal.forEach((formalEducation) => {
+      this.data.education.formal.forEach((formalEducation) => {
         const divContainerHtml = document.createElement("div")
         divContainerHtml.setAttribute("class", "entry-container")
         const divTitleHtml = document.createElement("div")
@@ -97,7 +53,7 @@ class Resume{
   setProjects(){
     const elements = document.querySelectorAll('[data-ref="projects"]')
     elements.forEach((element) => {
-      this.resumeData.projects.forEach((project) => {
+      this.data.projects.forEach((project) => {
         const divContainerHtml = document.createElement("div")
         divContainerHtml.setAttribute("class", "entry-container")
         const divTitleHtml = document.createElement("div")
@@ -127,7 +83,7 @@ class Resume{
   setExperiences(){
     const elements = document.querySelectorAll('[data-ref="experiences"]')
     elements.forEach((element) => {
-      this.resumeData.experiences.forEach((experience) => {
+      this.data.experiences.forEach((experience) => {
         const divContainerHtml = document.createElement("div")
         divContainerHtml.setAttribute("class", "entry-container")
         const divTitleHtml = document.createElement("div")
@@ -161,7 +117,7 @@ class Resume{
   setQualifications(){
     const elements = document.querySelectorAll('[data-ref="qualifications"]')
     elements.forEach((element) => {
-      this.resumeData.education.qualifications.forEach((qualification) => {
+      this.data.education.qualifications.forEach((qualification) => {
         const divContainerHtml = document.createElement("div")
         divContainerHtml.setAttribute("class", "entry-container one-line")
         const divTitleHtml = document.createElement("div")
@@ -197,7 +153,7 @@ class Resume{
     elements.forEach((element) => {
       const grid = document.createElement("div")
       grid.setAttribute("class", "grid-3")
-      this.resumeData.languages.forEach((language) => {
+      this.data.languages.forEach((language) => {
         const divContainerHtml = document.createElement("div")
         divContainerHtml.setAttribute("class", "entry-container")
         const divTitleHtml = document.createElement("div")
@@ -225,7 +181,7 @@ class Resume{
     const elements = document.querySelectorAll('[data-ref="skills"]')
     elements.forEach((element) => {
       const divContainerHtml = document.createElement("div")
-      this.resumeData.skills.forEach((skill) => {
+      this.data.skills.forEach((skill) => {
         const labelHtml = document.createElement("label")
         labelHtml.innerText = skill
         divContainerHtml.appendChild(labelHtml)
@@ -237,10 +193,6 @@ class Resume{
 
   async init(){
     await this.getData()
-    this.setName()
-    this.setDescription()
-    this.setAvatar()
-    this.setContactList()
     this.setPresentation()
     this.setFormalEducation()
     this.setProjects()
@@ -252,5 +204,5 @@ class Resume{
   }
 }
 
-const resume = new Resume();
-resume.init();
+const resumeData = new ResumeData();
+resumeData.init();

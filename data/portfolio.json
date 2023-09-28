@@ -1,0 +1,98 @@
+{
+ "items": [
+  {
+    "title": "Contta",
+    "img_url": "/assets/img/portfolio/contta_screenshot.png",
+    "description": "Aplicação web self-hosted para gestão de finanças pessoais, com organização de gastos e receitas por contas e categorias. Oferece, ainda, painel com uma visão global das movimentações do usuário por meio de gráficos. Outro recurso relevante é o orçamento anual, que permite definir uma expectativa de gasto em cada mês, para cada categoria, e acompanhar quanto está sendo gasto.",
+    "labels": [
+      "React",
+      "Laravel",
+      "MySQL",
+      "Javascript",
+      "PHP",
+      "HTML",
+      "CSS",
+      "Rest API"
+    ],
+    "btns": [
+      {
+        "title": "Github",
+        "url": "http://github.com/cegj/contta",
+        "icon_class": "fa-brands fa-github"
+      }
+    ]
+  },
+  {
+    "title": "Denker",
+    "img_url": "/assets/img/portfolio/denker_screenshot.png",
+    "description": "Rede social na qual o usuário pode compartilhar seus pensamentos (com a possibilidade de incluir uma imagem no post), seguir outros usuários e acompanhar suas postagens, além de curtir e comentar postagens. O frontend e o backend foram desenvolvidos de forma separada, sendo o front desenvolvido em React e o back em NodeJS. <strong>Consulte o Github</strong> para outras informações, imagens e links para navegação na aplicação.",
+    "labels": [
+      "React",
+      "Node.js",
+      "MySQL",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Json Web Token",
+      "Rest API"
+    ],
+    "btns": [
+      {
+        "title": "Github (frontend)",
+        "url": "https://github.com/cegj/denker-frontend",
+        "icon_class": "fa-brands fa-github"
+      },
+      {
+        "title": "Github (backend)",
+        "url": "https://github.com/cegj/denker-backend",
+        "icon_class": "fa-brands fa-github"
+      },
+      {
+        "title": "Live demo",
+        "url": "https://denker.herokuapp.com/user/6",
+        "icon_class": "fa-solid fa-globe"
+      }
+    ]
+  },
+  {
+    "title": "PetSearch",
+    "img_url": "/assets/img/portfolio/petsearch_screenshot.png",
+    "description": "Desenvolvido em equipe com colegas da PUC/Minas, o PetSearch tem como objetivo facilitar a localização de pets perdidos e fomentar a adoção de animais de estimação. Permite cadastrar um pet com foto, visualizar seu endereço no mapa, entrar em contato diretamente com o tutor, marcar o pet como encontrado ou adotado, dentre outros recursos.",
+    "labels": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Node.js",
+      "Json-Server"
+    ],
+    "btns": [
+      {
+        "title": "Github",
+        "url": "https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t1-pet_search",
+        "icon_class": "fa-brands fa-github"
+      },
+      {
+        "title": "Live demo",
+        "url": "http://pet-search-puc.herokuapp.com/",
+        "icon_class": "fa-solid fa-globe"
+      }
+    ]
+  },
+  {
+    "title": "Publicador Sigepe",
+    "img_url": "/assets/img/portfolio/publicador_screenshot.png",
+    "description": "Script de automação de publicação de portarias no Sistema de Gestão de Pessoas do Governo Federal (Sigepe). Lê o arquivo das portarias, extrai as informações, preenche os campos no Sigepe, envia para publicação e, por fim, renomeia e move o arquivo (se assim desejado). Usado em produção.",
+    "labels": [
+      "Python",
+      "Selenium"
+    ],
+    "btns": [
+      {
+        "title": "Github",
+        "url": "https://github.com/cegj/publicador_sigepe",
+        "icon_class": "fa-brands fa-github"
+      }
+    ]
+  } 
+ ] 
+}
