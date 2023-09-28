@@ -1,4 +1,4 @@
-class Resume{
+class App{
   constructor(altHeaderSelector){
     this.altHeader = document.querySelector(altHeaderSelector);
   }
@@ -25,5 +25,5 @@ class Resume{
   }
 }
 
-const resume = new Resume('.side-box');
-resume.init();
+const app = new App('.side-box');
+app.init();

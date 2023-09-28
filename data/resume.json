@@ -1,0 +1,189 @@
+{
+  "presentation": "Tenho 29 anos, sou interessado por tecnologia desde muito novo e, atualmente, estudo Sistemas de Informação e sou formado em Administração. Busco minha primeira experiência profissional em tecnologia da informação, com foco em desenvolvimento web. Além da graduação, procuro preparar-me para essa oportunidade realizando projetos e aprimorando meus conhecimentos por meio de cursos, vídeos, leituras e podcasts.",
+  "education": {
+    "formal": [
+      {
+        "title": "Sistemas de Informação",
+        "labels": ["Graduação", "Em andamento"],
+        "date": "2022-2025",
+        "institution": "Pontifícia Universidade Católica de Minas Gerais (PUC/Minas)",
+        "institution_url": "",
+        "description": "Formação moderna com ênfase nas práticas de mercado, promovendo o desenvolvimento de projetos a cada semestre."  
+      },
+      {
+        "title": "Administração",
+        "labels": ["Graduação", "Concluído"],
+        "date": "2016-2019",
+        "institution": "Universidade Estácio de Sá",
+        "institution_url": "",
+        "description": "Conhecimento holístico das diversas áreas da administração que acredito contribuir para desenvolver sistemas sob a ótica do negócio."  
+      }   
+    ],
+    "qualifications": [
+      {
+        "title": "React Completo",
+        "labels": ["Curso"],
+        "hours": "36h",
+        "date": "Ago/2022",
+        "institution": "Origamid",
+        "institution_url": "https://www.origamid.com/certificate/3f0293b9/"
+      },
+      {
+        "title": "Node.js do Zero à Maestria com Diversos Projetos",
+        "labels": ["Curso"],
+        "hours": "37,5h",
+        "date": "Jul/2022",
+        "institution": "Udemy (Matheus Battisti)",
+        "institution_url": "https://www.udemy.com/certificate/UC-64926b63-f8fb-49a6-97ea-6a372ce844c3/"
+      },
+      {
+        "title": "Javascript Completo ES6+",
+        "labels": ["Curso"],
+        "hours": "74h",
+        "date": "Mai/2022",
+        "institution": "Origamid",
+        "institution_url": "https://www.origamid.com/certificate/e8e22903/"
+      },
+      {
+        "title": "HTML e CSS para Iniciantes",
+        "labels": ["Curso"],
+        "hours": "46h",
+        "date": "Fev/2022",
+        "institution": "Origamid",
+        "institution_url": "https://www.origamid.com/certificate/f2e09611/"
+      },
+      {
+        "title": "Algorítimo e Lógica de Programação",
+        "labels": ["Curso"],
+        "hours": "30,5h",
+        "date": "Fev/2022",
+        "institution": "Udemy (Nélio Alves)",
+        "institution_url": "https://www.udemy.com/certificate/UC-1cf22022-49bc-4e73-ba34-2da183450d3a/"
+      },
+      {
+        "title": "Introdução ao PHP Orientado a Objetos",
+        "labels": ["Curso"],
+        "hours": "1h",
+        "date": "Fev/2022",
+        "institution": "Alfahelix",
+        "institution_url": "https://alfahelix.com.br/certificados/validar/?id=576Y25&g-recaptcha-response=03AGdBq25d_jvvcApDtwGAk_ZZJ-YoNs99OpARbwri51lhJjBFB1hWmlW5wirx4T_k7oUBElt-kS6TPVI_oGWNxe3__WGtx3GKExdqk3QNiZKpGzGPTYVrQ-efwAMGN9Ob905uH5JRwGd0wcbC8fristkD5ATRghIL-zLCxChjKHQ_sTj_ulpGrrUCk8GpvVhptxqc-HTnViPCboPcH0VRHXmdX1qnka_vmjvHW4JJwNp0j8AYW2LBysnoJ6OVoweCVlhaq9GZvX59bsnBziRH2AHgzD7aEYDgKAFd1gKSZaPyiToc1Hzy5cjF_AzF0mPLT99uwsWYLc744aOgVfwWj_mpCebNFTYCik8ucR3ACJyLA3miycddFTbTbA8Rt3iLm144zeCeUadhyDBPbL-h1q87SNXMJzHo97XMDgZDozsraRIm8ETfVsgpJWgr-3kzl3fTmC12WN0xwhHGPdO80gMZ439ZjvYQTg"
+      },
+      {
+        "title": "Formação Iniciante em Programação",
+        "labels": ["Formação"],
+        "hours": "170h",
+        "date": "Out/2019",
+        "institution": "Alura",
+        "institution_url": "https://cursos.alura.com.br/degree/certificate/d71f935b-1875-4437-a705-f5ec296d2ab6"
+      },
+      {
+        "title": "Marketing de Conteúdo",
+        "labels": ["Certificação"],
+        "hours": "",
+        "date": "Jun/2021",
+        "institution": "Rock Content University",
+        "institution_url": "https://university.br.rockcontent.com/certificates/jvzsibeh4b"
+      },
+      {
+        "title": "Produção de Conteúdo para Web",
+        "labels": ["Certificação"],
+        "hours": "",
+        "date": "Jun/2021",
+        "institution": "Rock Content University",
+        "institution_url": "https://university.br.rockcontent.com/certificates/wiyarnox6l"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "title": "Chefe de divisão administrativa em gestão de pessoas",
+      "labels": ["Emprego formal"],
+      "date": "Fev/2017 - Fev/2022",
+      "company": "Universidade Federal do Espírito Santo",
+      "company_url": "https://www.ufes.br/",
+      "description": "Gerenciamento de trabalho administrativo. Liderança de equipe de cinco pessoas. Soft-skills: liderança, resolução de problemas, trabalho em equipe, organização, gestão do tempo."
+    },
+    {
+      "title": "Redator de conteúdo para web",
+      "labels": ["Freelancer"],
+      "date": "Mar/2016 - Out/2018",
+      "company": "Rock Content",
+      "company_url": "https://rockcontent.com/br/",
+      "description": "Redação de conteúdo para web/blogs. Aplicação de técnicas de SEO. Soft-skills: criatividade, gestão do tempo, organização."
+    },
+    {
+      "title": "Estágiário na área bancária",
+      "labels": ["Estágio"],
+      "date": "Abr/2014 - Jul/2014",
+      "company": "Itaú Unibanco",
+      "company_url": "https://www.itau.com.br/",
+      "description": "Atendimento ao público, venda de serviços bancários. Soft-skills: atendimento ao público, respeito à diversidade, alcance de metas."
+    },
+    {
+      "title": "Estagiário na área de gestão de pessoas",
+      "labels": ["Estágio"],
+      "date": "Nov/2013 a Jan/2015",
+      "company": "Universidade Federal Fluminense",
+      "company_url": "https://uff.br/",
+      "description": "Mapeamento de competências, gerencialmento de equipe de estagiários. Soft-skills: liderança, trabalho em equipe, gerenciamento do tempo."
+    }   
+  ],
+  "projects": [
+    {
+      "title": "Contta",
+      "labels": ["aplicação web", "usado em produção"],
+      "date": "Nov/2021 - atual",
+      "description": "Aplicação web desenvolvida para gestão de finanças pessoais.",
+      "stack": "React, Laravel, MySQL, Javascript, HTML e CSS."
+    },
+    {
+      "title": "Denker",
+      "labels": ["aplicação web"],
+      "date": "Jun/2022 - ago/2022",
+      "description": "Rede social para publicar pensamentos (com ou sem imagens), seguir outros usuários, curtir e comentar postagens.",
+      "stack": "React, Node.js, MySQL, Javascript, HTML e CSS."
+    },
+    {
+      "title": "PetSearch",
+      "labels": ["aplicação web"],
+      "date": "mar/2022 - Jul/2022",
+      "description": "Aplicação web para ajudar a localizar pets perdidos e fomentar a adoção.",
+      "stack": "Node.js, JsonServer, Javascript, HTML e CSS."
+    },
+    {
+      "title": "Publicador Sigepe",
+      "labels": ["aplicação desktop", "usado em produção"],
+      "date": "Fev/2022 - Mar/2022",
+      "description": "Sofware para automatizar publicação de portarias no Sistema de Gestão de Pessoas do Governo Federal.",
+      "stack": "Python (Selenium, Tkinter)"
+    }
+  ],
+  "languages": [
+    {
+      "title": "Português",
+      "labels": ["Nativo"],
+      "description": "Lê, escreve, fala e compreende fluentemente"
+    },
+    {
+      "title": "Inglês",
+      "labels": ["Intermediário"],
+      "description": "Lê, escreve, fala e compreende bem"
+    },
+    {
+      "title": "Espanhol",
+      "labels": ["Básico"],
+      "description": "Lê e compreende razoavelmente"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React",
+    "PHP",
+    "Node.js",
+    "Laravel",
+    "Python",
+    "MySQL"
+  ]
+}

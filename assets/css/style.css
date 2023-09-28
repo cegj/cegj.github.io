@@ -26,3 +26,7 @@ a {
   max-height: 130px;
   justify-self: 0 auto;
 }
+
+i {
+  margin-right: .5rem;
+}

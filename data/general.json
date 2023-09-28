@@ -1,0 +1,43 @@
+{
+ "name": "Carlos Eduardo Gaspar Jr.",
+ "avatar_url": "https://avatars.githubusercontent.com/u/55411317?v=4",
+ "description": "Em busca de vaga de estágio ou junior para desenvolvimento web",
+ "contact": [
+  { 
+    "title": "Vitória/ES",
+    "type": "address",
+    "url": "",
+    "icon_class": "fa-solid fa-house"
+  },
+  { 
+    "title": "(27) 98895-9428",
+    "type": "phone",
+    "url": "tel:+5521988959428",
+    "icon_class": "fa-solid fa-phone"
+  },
+  { 
+    "title": "cegasparjr@gmail.com",
+    "type": "email",
+    "url": "mailto:cegasparjr@gmail.com",
+    "icon_class": "fa-solid fa-envelope"
+  },
+  { 
+    "title": "linkedin.com/in/cegj",
+    "type": "linkedin",
+    "url": "https://linkedin.com/in/cegj/",
+    "icon_class": "fa-brands fa-linkedin"
+  },
+  { 
+    "title": "github.com/cegj",
+    "type": "github",
+    "url": "https://github.com/cegj/",
+    "icon_class": "fa-brands fa-github"
+  },
+  { 
+    "title": "Portfólio",
+    "type": "portfolio",
+    "url": "/portfolio",
+    "icon_class": "fa-solid fa-display"
+  } 
+ ]
+}
