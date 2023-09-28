@@ -38,6 +38,12 @@
     "type": "portfolio",
     "url": "/portfolio",
     "icon_class": "fa-solid fa-display"
+  },
+  { 
+    "title": "Currículo",
+    "type": "curriculo",
+    "url": "/",
+    "icon_class": "fa-solid fa-list"
   } 
  ]
 }

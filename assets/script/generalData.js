@@ -50,12 +50,24 @@ class GeneralData{
       })
     }
 
+  removeBadLink(){
+    const pathname = location.pathname
+    let elements
+    if (pathname.includes("portfolio")){
+      elements = document.querySelectorAll('[href="/portfolio"]')
+    } else {
+      elements = document.querySelectorAll('[href="/"]')
+    }
+    if (elements) elements.forEach((e) => e.remove())
+  } 
+
   async init(){
     await this.getData()
     this.setName()
     this.setDescription()
     this.setAvatar()
     this.setContactList()
+    this.removeBadLink()
   }
 }
 
