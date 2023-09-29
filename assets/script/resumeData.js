@@ -141,7 +141,10 @@ class ResumeData{
         divTitleHtml.appendChild(pDateHtml)
         const pInstitutionHtml = document.createElement("p")
         pInstitutionHtml.setAttribute("class", "institution")
-        pInstitutionHtml.innerText = qualification.institution
+        const aInstitutionHtml = document.createElement("a")
+        aInstitutionHtml.setAttribute("href", qualification.institution_url)
+        aInstitutionHtml.innerText = qualification.institution
+        pInstitutionHtml.appendChild(aInstitutionHtml)
         divTitleHtml.appendChild(pInstitutionHtml)
         element.appendChild(divContainerHtml)
       })

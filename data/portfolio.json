@@ -3,7 +3,7 @@
   {
     "title": "Contta",
     "img_url": "/assets/img/portfolio/contta_screenshot.png",
-    "description": "Aplicação web self-hosted para gestão de finanças pessoais, com organização de gastos e receitas por contas e categorias. Oferece, ainda, painel com uma visão global das movimentações do usuário por meio de gráficos. Outro recurso relevante é o orçamento anual, que permite definir uma expectativa de gasto em cada mês, para cada categoria, e acompanhar quanto está sendo gasto.",
+    "description": "Aplicação web para gestão de finanças pessoais, com organização de gastos e receitas por contas e categorias. Oferece, ainda, painel com uma visão global das movimentações do usuário por meio de gráficos, e orçamento anual, que permite definir uma expectativa de gasto em cada mês, para cada categoria, fazer o acompanhamento.",
     "labels": [
       "React",
       "Laravel",
@@ -16,8 +16,13 @@
     ],
     "btns": [
       {
-        "title": "Github",
-        "url": "http://github.com/cegj/contta",
+        "title": "Github (frontend)",
+        "url": "http://github.com/cegj/contta_frontend",
+        "icon_class": "fa-brands fa-github"
+      },
+      {
+        "title": "Github (backend)",
+        "url": "http://github.com/cegj/contta_backend",
         "icon_class": "fa-brands fa-github"
       }
     ]
@@ -25,7 +30,7 @@
   {
     "title": "Denker",
     "img_url": "/assets/img/portfolio/denker_screenshot.png",
-    "description": "Rede social na qual o usuário pode compartilhar seus pensamentos (com a possibilidade de incluir uma imagem no post), seguir outros usuários e acompanhar suas postagens, além de curtir e comentar postagens. O frontend e o backend foram desenvolvidos de forma separada, sendo o front desenvolvido em React e o back em NodeJS. <strong>Consulte o Github</strong> para outras informações, imagens e links para navegação na aplicação.",
+    "description": "Rede social inspirada no Twitter, na qual o usuário pode compartilhar seus pensamentos (com a possibilidade de incluir imagem), seguir outros usuários e acompanhar suas postagens, além de curtir e comentar postagens. O frontend e o backend foram desenvolvidos de forma separada, sendo o front desenvolvido em React e o back em NodeJS.",
     "labels": [
       "React",
       "Node.js",
@@ -49,7 +54,7 @@
       },
       {
         "title": "Live demo",
-        "url": "https://denker.herokuapp.com/user/6",
+        "url": "https://denker.cegj.dev/user/9",
         "icon_class": "fa-solid fa-globe"
       }
     ]
@@ -68,12 +73,12 @@
     "btns": [
       {
         "title": "Github",
-        "url": "https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t1-pet_search",
+        "url": "https://github.com/cegj/petsearch",
         "icon_class": "fa-brands fa-github"
       },
       {
         "title": "Live demo",
-        "url": "http://pet-search-puc.herokuapp.com/",
+        "url": "https://petsearch.cegj.dev/",
         "icon_class": "fa-solid fa-globe"
       }
     ]
@@ -81,16 +86,22 @@
   {
     "title": "Publicador Sigepe",
     "img_url": "/assets/img/portfolio/publicador_screenshot.png",
-    "description": "Script de automação de publicação de portarias no Sistema de Gestão de Pessoas do Governo Federal (Sigepe). Lê o arquivo das portarias, extrai as informações, preenche os campos no Sigepe, envia para publicação e, por fim, renomeia e move o arquivo (se assim desejado). Usado em produção.",
+    "description": "Aplicação desktop (Windows) para automatizar a publicação de documentos no Sistema de Gestão de Pessoas do Governo Federal (Sigepe). Usado em produção.",
     "labels": [
       "Python",
-      "Selenium"
+      "Selenium",
+      "Tkinter"
     ],
     "btns": [
       {
         "title": "Github",
         "url": "https://github.com/cegj/publicador_sigepe",
         "icon_class": "fa-brands fa-github"
+      },
+      {
+        "title": "Documentação",
+        "url": "https://cegj.notion.site/Publicador-Sigepe-v1-2-Documenta-o-39605c4558e64b95af306dc82b83a9c9",
+        "icon_class": "fa-solid fa-file-lines"
       }
     ]
   } 
