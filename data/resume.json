@@ -153,8 +153,8 @@
     {
       "title": "Publicador Sigepe",
       "labels": ["aplicação desktop", "usado em produção"],
-      "date": "Fev/2022 - Mar/2022",
-      "description": "Sofware para automatizar publicação de portarias no Sistema de Gestão de Pessoas do Governo Federal.",
+      "date": "Fev/2022 - atual",
+      "description": "Sofware desktop para automatizar publicação de documentos no Sistema de Gestão de Pessoas do Governo Federal.",
       "stack": "Python (Selenium, Tkinter)"
     }
   ],
