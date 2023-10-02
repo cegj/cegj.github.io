@@ -17,12 +17,12 @@
     "btns": [
       {
         "title": "Github (frontend)",
-        "url": "http://github.com/cegj/contta_frontend",
+        "url": "http://github.com/cegj/contta-frontend",
         "icon_class": "fa-brands fa-github"
       },
       {
         "title": "Github (backend)",
-        "url": "http://github.com/cegj/contta_backend",
+        "url": "http://github.com/cegj/contta-backend",
         "icon_class": "fa-brands fa-github"
       }
     ]
