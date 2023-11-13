@@ -73,7 +73,7 @@ class ResumeData{
         divContainerHtml.appendChild(pDateHtml)
         const pDescriptionHtml = document.createElement("p")
         pDescriptionHtml.setAttribute("class", "entry-description")
-        pDescriptionHtml.innerText = `${project.description} ${project.stack}`  
+        pDescriptionHtml.innerText = `${project.description}. Stack: ${project.stack}`  
         divContainerHtml.appendChild(pDescriptionHtml)
         element.appendChild(divContainerHtml)
       })
