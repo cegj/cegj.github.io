@@ -134,13 +134,13 @@
       "labels": ["aplicação web", "usado em produção"],
       "date": "Nov/2021 - atual",
       "description": "Aplicação web desenvolvida para gestão de finanças pessoais.",
-      "stack": "React, Laravel, MySQL, Javascript, HTML e CSS."
+      "stack": "React, PHP, Laravel, MySQL, Javascript, HTML e CSS."
     },
     {
       "title": "Denker",
       "labels": ["aplicação web"],
       "date": "Jun/2022 - ago/2022",
-      "description": "Rede social para publicar pensamentos (com ou sem imagens), seguir outros usuários, curtir e comentar postagens.",
+      "description": "Rede social para publicar pensamentos e imagens, seguir outros usuários, curtir e comentar postagens.",
       "stack": "React, Node.js, MySQL, Javascript, HTML e CSS."
     },
     {
